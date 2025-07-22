@@ -179,7 +179,9 @@ main section h1
   color: rgb(251, 130, 0);
   margin-top: 10px;
   margin-bottom: 6px;
+  font-weight: 600;
 }
+
 
 
 @media (max-width: 576px)
