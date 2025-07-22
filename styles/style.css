@@ -14,6 +14,14 @@
   font-style: normal;
 }
 
+/* ///////// PRIMERY SECTION //////// */
+
+.btn-hover:hover
+{
+
+  background-color: #0A0826;
+
+}
 
 /* //////////// HEADER CONTAINER 1 //////////  */
 
@@ -243,7 +251,7 @@ main .main-container .ancor a
   color: #fff;
   border: none;
   background-color: #E02C6D;
-
+  cursor: pointer;
 }
 
 
@@ -267,6 +275,19 @@ footer .icon
   margin-top: 17px;
   display: flex;
   justify-content: space-evenly;
+}
+
+footer .icon i:hover
+{
+  cursor: pointer;
+  color: orangered;
+  background-color: #fff;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  text-align: center;
+  align-content: center;
+
 }
 
 /* /////////// RESPONSIVE SECTION ///////// */
@@ -350,22 +371,24 @@ footer .icon
 {
    .main-product-container
    {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(2 , 1fr);
     
    } 
 
    header section .section-2 img
    {
      max-width: 330px;
-  }
+   }
 
   
    .main-container-2
    {
+
     flex-direction: column-reverse;
     padding: 20px;
 
    }
+
    .main-container-2 div
    {
     max-width: 100%;
